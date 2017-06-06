@@ -7,7 +7,7 @@ app.get('/', function (req, res) {
   res.send('Hello World!')
 })
 
-var port = normalizePort(process.env.PORT || '3000');
+var port = normalizePort(process.env.PORT || '80');
 app.set('port', port);
 
 app.listen(port, function () {
